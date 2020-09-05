@@ -1,4 +1,77 @@
+:root{
+    --color-background-body: #16265e;
+    --color-background-form: #141721;
+    --color-active: #22AF6F;
+    --color-inactive: #396991;
+}
+
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+}
+
+body {
+    /*width: 100vw;
+    height: 100vh;
+    */background: var(--color-background-body);
+}
+
+body form {
+    width: 500px;
+    height: 500px;
+    margin: 8% auto;
+    background: var(--color-background-form);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+form div {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+
+form h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+
+    padding: 20px;
+}
+
+form input {
+    height: 50px;
+    padding: 8px;
+    
+    color: white;
+    font-size: 0.4em;
+    text-align: center;
+
+    background: transparent;
+    border: 3px solid var(--color-inactive);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 70%;
+}
+
+form input[type="button"] {
+    width: 30%;
+
+    border: 3px solid var(--color-active);
 }
