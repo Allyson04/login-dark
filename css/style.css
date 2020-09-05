@@ -50,7 +50,7 @@ form h1 {
 
 form input {
     height: 50px;
-    padding: 8px;
+    padding: 10px;
     
     color: white;
     font-size: 0.4em;
@@ -69,6 +69,12 @@ form input {
 
 form input.text-input {
     width: 80%;
+
+    transition: width 0.3s;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
 }
 
 form input.text-input:hover {
@@ -77,18 +83,19 @@ form input.text-input:hover {
 
 form input.text-input:focus {
     width: 100%;
-
     border: 3px solid var(--color-focus);
 }
 
 form input[type="button"] {
-    width: 30%;
-
+    width: 40%;
     border: 3px solid var(--color-focus);
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
 }
 
 form input[type="button"]:hover {
-    width: 30%;
-
     background: var(--color-focus);
 }
