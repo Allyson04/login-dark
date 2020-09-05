@@ -1,7 +1,7 @@
 # Formulário de Login Animado apenas com HTML e CSS
 
 <p>
-Esta página animada foi originalmente criada pelo Canal [DarkCode](http://https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw "DarkCode"), eu apenas reproduzi a página com pequenas alterações, o tutorial ensinando como fazer este site está [aqui.](http://https://www.youtube.com/watch?v=HV7DtH3J2PU "aqui.")
+Esta página animada foi originalmente criada pelo Canal <a src="http://https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw">DarkCode</a>, eu apenas reproduzi a página com pequenas alterações, o tutorial ensinando como fazer este site está <a src="http://https://www.youtube.com/watch?v=HV7DtH3J2PU">aqui.</a>
 </p>
 <hr>
 <p>
