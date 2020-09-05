@@ -1,8 +1,8 @@
 :root{
     --color-background-body: #16265e;
     --color-background-form: #141721;
-    --color-active: #22AF6F;
-    --color-inactive: #396991;
+    --color-focus: #22AF6F;
+    --color-unfocus: #396991;
 }
 
 * {
@@ -57,21 +57,38 @@ form input {
     text-align: center;
 
     background: transparent;
-    border: 3px solid var(--color-inactive);
+    border: 3px solid var(--color-unfocus);
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
+
+    outline: none;
 }
 
-form input[type="text"],
-form input[type="password"] {
-    width: 70%;
+form input.text-input {
+    width: 80%;
+}
+
+form input.text-input:hover {
+    width: 100%;
+}
+
+form input.text-input:focus {
+    width: 100%;
+
+    border: 3px solid var(--color-focus);
 }
 
 form input[type="button"] {
     width: 30%;
 
-    border: 3px solid var(--color-active);
+    border: 3px solid var(--color-focus);
+}
+
+form input[type="button"]:hover {
+    width: 30%;
+
+    background: var(--color-focus);
 }
